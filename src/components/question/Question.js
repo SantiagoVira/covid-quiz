@@ -1,21 +1,26 @@
 import "./Question.css";
-import React, { useEffect } from "react";
+import React from "react";
+import Answer from "./Answer";
 
 function Question({ object, number }) {
-    useEffect(() => {
-        console.log(object);
-    }, [object]);
-
-    if (object === null) {
-        return;
+    if (object === null || object === undefined) {
+        return <></>;
     }
+
+    const answers = [object.a, object.a1, object.a2, object.a3].sort(
+        () => 0.5 - Math.random()
+    );
 
     return (
         <div>
-            <p>
-                {number}
-                {object && object.q}
-            </p>
+            <p className="number">{number}</p>
+            <p className="question">{object && object.q}</p>
+
+            <div className="answersCol">
+                {answers.map((answer, i) => (
+                    <Answer text={answer} key={i} />
+                ))}
+            </div>
         </div>
     );
 }

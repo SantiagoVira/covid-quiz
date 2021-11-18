@@ -5,7 +5,7 @@
     flex-direction: column;
 }
 .Home {
-    height: 110vh;
+    height: 95vh;
     justify-content: space-between;
 }
 .title {
@@ -17,7 +17,6 @@
     margin: 0vh;
 }
 .blurb {
-    font-family: "Roboto", sans-serif;
     font-size: 6.5vw;
     font-weight: 800;
     text-transform: uppercase;
@@ -26,7 +25,6 @@
     text-align: center;
 }
 .info {
-    font-family: "Roboto", sans-serif;
     font-size: 4.5vw;
     font-weight: 700;
     text-transform: uppercase;
@@ -42,11 +40,6 @@
 .logo-img {
     width: 95vw;
 }
-
-.Home .button {
-    margin-bottom: 15vh;
-}
-
 .Home a {
     text-decoration: none;
 }

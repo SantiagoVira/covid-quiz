@@ -1,4 +1,3 @@
-import "./App.css";
 import { Home, Quiz } from "./pages";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
