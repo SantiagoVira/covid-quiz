@@ -24,23 +24,7 @@ function Quiz() {
     // const [score, setScore] = useState(0);
     const [chosen, setChosen] = useState([]);
     useEffect(() => {
-        let already_chosen = [];
-        let chosen_questions = [];
-        for (let i = 0; i < 5; i++) {
-            let index;
-            while (true) {
-                let temp = Math.floor(Math.random() * Questions.length);
-                if (already_chosen.findIndex((item) => item === temp) < 0) {
-                    index = temp;
-                    break;
-                }
-            }
-
-            already_chosen.push(index);
-            chosen_questions.push(Questions[index]);
-        }
-
-        setChosen(chosen_questions);
+        setChosen(Questions.sort(() => 0.5 - Math.random()).slice(0, 5));
     }, []);
 
     return (
