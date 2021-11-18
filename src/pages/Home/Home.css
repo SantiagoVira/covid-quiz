@@ -45,3 +45,7 @@
 .Home a {
     text-decoration: none;
 }
+.Home .button {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
