@@ -1,0 +1,35 @@
+.Home,
+.text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Home {
+    height: 100vh;
+    justify-content: space-between;
+}
+.title {
+    font-family: "Patrick Hand", cursive;
+    font-size: 14vw;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    margin: 0vh;
+}
+.blurb {
+    font-family: "Roboto", sans-serif;
+    font-size: 6.5vw;
+    font-weight: 800;
+    text-transform: uppercase;
+
+    width: 90vw;
+    text-align: center;
+}
+
+.logo-img {
+    width: 90vw;
+}
+
+.Home .button {
+    margin-bottom: 40px;
+}
