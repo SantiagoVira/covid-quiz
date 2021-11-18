@@ -5,12 +5,12 @@
     flex-direction: column;
 }
 .Home {
-    height: 100vh;
+    height: 110vh;
     justify-content: space-between;
 }
 .title {
     font-family: "Patrick Hand", cursive;
-    font-size: 14vw;
+    font-size: 16vw;
     font-weight: bold;
     text-transform: uppercase;
 
@@ -25,11 +25,24 @@
     width: 90vw;
     text-align: center;
 }
+.info {
+    font-family: "Roboto", sans-serif;
+    font-size: 4.5vw;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    width: 80vw;
+    text-align: center;
+
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--pink);
+}
 
 .logo-img {
-    width: 90vw;
+    width: 95vw;
 }
 
 .Home .button {
-    margin-bottom: 40px;
+    margin-bottom: 15vh;
 }

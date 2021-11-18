@@ -12,6 +12,10 @@ function Home() {
                     Test your knowledge, remain safe and informed, and be sure
                     to enjoy!
                 </p>
+                <p className="info">
+                    Answer 10 questions about Covid-19, be sure not to fall for
+                    any misinformation!
+                </p>
             </div>
             <img src={logo} alt="Covid" className="logo-img" />
 
