@@ -20,8 +20,8 @@ const choose = (used, setUsed) => {
 
 function Quiz() {
     const [used, setUsed] = useState([]);
-    const [completed, setCompleted] = useState(0);
-    const [score, setScore] = useState(0);
+    // const [completed, setCompleted] = useState(0);
+    // const [score, setScore] = useState(0);
     const [chosen, setChosen] = useState("");
     useEffect(() => {
         setChosen(choose(used, setUsed));

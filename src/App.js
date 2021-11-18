@@ -6,12 +6,8 @@ function App() {
     return (
         <Router>
             <Routes>
-                <Route exact path="/">
-                    <Home />
-                </Route>
-                <Route path="/quiz">
-                    <Quiz />
-                </Route>
+                <Route exact path="/" element={<Home />} />
+                <Route path="/quiz" element={<Quiz />} />
             </Routes>
         </Router>
     );
