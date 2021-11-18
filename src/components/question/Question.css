@@ -1,3 +1,7 @@
+:root {
+    --answer-transition-time: 0.2s;
+}
+
 .number {
     color: var(--bg);
     background-color: var(--pink);
@@ -32,15 +36,17 @@
 .outerCircle,
 .innerCircle {
     border-radius: 50%;
-    transition: border-color 0.3s, background-color 0.3s, width 0.3s,
-        height 0.3s;
+    transition: border-color var(--answer-transition-time),
+        background-color var(--answer-transition-time),
+        width var(--answer-transition-time),
+        height var(--answer-transition-time);
 }
 
 .outerCircle {
     border: 2px solid;
     background-color: transparent;
-    width: 50px;
-    height: 50px;
+    width: 20px;
+    height: 20px;
 
     display: flex;
     align-items: center;
@@ -48,9 +54,9 @@
 }
 
 .innerCircle.active {
-    width: 45px;
-    height: 45px;
-    background-color: lime;
+    width: 17px;
+    height: 17px;
+    background-color: #00e600;
 }
 .innerCircle.inactive {
     background-color: gray;
