@@ -1,0 +1,242 @@
+[
+    {
+        "q": "What part of body does the COVID-19 Affect?",
+        "correct": "The Lungs/Airways",
+        "a1": "The Heart/Blood Vessels",
+        "a2": "The Lower Body",
+        "a3": "The Brain and Nervous System",
+        "difficulty": 1
+    },
+    {
+        "q": "Which is NOT a symptom of the Coronavirus?",
+        "correct": "Loss of appetite",
+        "a1": "Fever",
+        "a2": "Loss of taste/smell",
+        "a3": "Tiredness",
+        "difficulty": 2
+    },
+    {
+        "q": "Where was the Coronavirus first discovered?",
+        "correct": "Wuhan, China",
+        "a1": "New York, USA",
+        "a2": "Volgograd, Russia",
+        "a3": "Wales, Britain",
+        "difficulty": 1
+    },
+    {
+        "q": "People with pre-existing illnesses are more vulnerable to Coronavirus",
+        "correct": "True, pre-existing conditions weaken your immune system and leave you compromised",
+        "a1": "True, pre-existing conditions can cause coronavirus",
+        "a2": "False, your immune system can fight both pre-existing conditions and covid",
+        "a3": "False, pre-existing conditions prevent you from getting coronavirus",
+        "difficulty": 1
+    },
+    {
+        "q": "How far do you have to be, at minimum, from other people to be safe from Coronavirus?",
+        "correct": "6 Feet",
+        "a1": "2 Feet",
+        "a2": "15 Feet",
+        "a3": "11 Feet",
+        "difficulty": 1
+    },
+    {
+        "q": "Where does Coronavirus spread the fastest?",
+        "correct": "In an urban setting",
+        "a1": "In a rural setting",
+        "a2": "In a suburban setting",
+        "a3": "In water",
+        "difficulty": 2
+    },
+    {
+        "q": "Wearing a mask helps stop the spread of Coronavirus",
+        "correct": "True, our nose and mouth remains covered when moving and talking",
+        "a1": "True, wearing the mask automatically gets rid of all coronavirus germs",
+        "a2": "False, covering our mouth and nose does not prevent the spread of coronavirus",
+        "a3": "False, masks are just bothersome and do not really help",
+        "difficulty": 1
+    },
+    {
+        "q": "Getting a flu vaccine helps you just in case you get both the flu and Coronavirus at the same time",
+        "correct": "True, the flu vaccine helps you fight the flu, which lets your body focus more on the coronavirus",
+        "a1": "False, the flu vaccine is completely ineffective",
+        "a2": "True, the flu vaccine helps fight both the flu and Coronavirus",
+        "a3": "False, the flu vaccine worsens your symptoms if you have both the coronavirus and the flu",
+        "difficulty": 2
+    },
+    {
+        "q": "What does the 19 in COVID-19 stand for?",
+        "correct": "2019, the year it was discovered",
+        "a1": "the 19th strain of Coronavirus",
+        "a2": "the 19 countries its affected so far",
+        "a3": "the 19 proteins it has in its shell",
+        "difficulty": 2
+    },
+    {
+        "q": "A vaccine helps your immune system produce antibodies against a virus",
+        "correct": "True, the vaccine gives a dead piece of the virus to help train you immune system",
+        "a1": "True, the vaccine automatically destroys any virus particls you come into contact with",
+        "a2": "False, vaccines don't help your immune system at all",
+        "a3": "False, the vaccine is the virus and it makes you sick to give you immunity",
+        "difficulty": 2
+    },
+    {
+        "q": "Why is the Coronavirus is spreading so rapidly?",
+        "correct": "Because of a lack of safety precautions and the fact that it is airborne",
+        "a1": "It is going the set speed viruses can spread",
+        "a2": "It's not because everyone is wearing a mask and staying safe",
+        "a3": "Because it travelled all the way from China",
+        "difficulty": 1
+    },
+    {
+        "q": "What happens in a phase 3 test of a vaccine?",
+        "correct": "The Coronavirus vaccine is tested on thousands of people",
+        "a1": "There are three people testing Coronavirus",
+        "a2": "The process of making the vaccine is changed to phase three, making it more effective",
+        "a3": "The vaccine is simulated in a supercomputer",
+        "difficulty": 3
+    },
+    {
+        "q": "Where was the first known death due to COVID-19 in the US?",
+        "correct": "California",
+        "a1": "New York",
+        "a2": "Texas",
+        "a3": "Florida",
+        "difficulty": 3
+    },
+    {
+        "q": "Who was the first governor to close schools in response to the pandemic?",
+        "correct": "Mike DeWine (Ohio’s governor)",
+        "a1": "Andrew Cuomo (New York's governor)",
+        "a2": "Phil Murphy (New Jersey's Governor)",
+        "a3": "Jared Polis (Colorado's Governor)",
+        "difficulty": 3
+    },
+    {
+        "q": "About what percentage of infected people recover without needing hospital treatment according to the World Health Organization website?",
+        "correct": "80%",
+        "a1": "70%",
+        "a2": "50%",
+        "a3": "60%",
+        "difficulty": 3
+    },
+    {
+        "q": "How big is the coronavirus?",
+        "correct": "80 billionths of a meter in diameter",
+        "a1": "8 billionths of a meter in diameter",
+        "a2": "800 billionths of a meter in diameter",
+        "a3": "800 millionths of a meter in diameter",
+        "difficulty": 3
+    },
+    {
+        "q": "What does the virus attach itself to when it enters the human body?",
+        "correct": "Ace-2 receptors in the lining of the airways",
+        "a1": "Red blood cells",
+        "a2": "Antigens",
+        "a3": "White blood cells",
+        "difficulty": 2
+    },
+    {
+        "q": "How long can the virus survive on plastic and stainless steel surfaces according to studies?\n",
+        "correct": "72+ hours",
+        "a1": "10-20 hours",
+        "a2": "30-50 hours",
+        "a3": "60-70 hours",
+        "difficulty": 3
+    },
+    {
+        "q": "Once infected with the coronavirus, how many days can it take to show symptoms?",
+        "correct": "2-14 days",
+        "a1": "7-14 days",
+        "a2": "2-12 days",
+        "a3": "7-18 days",
+        "difficulty": 2
+    },
+    {
+        "q": "A high temperature and a continuous cough have been official coronavirus symptoms in the UK since the start of the pandemic. But which of these did the government add to the list of early symptoms that people should look for?",
+        "correct": "Losing your sense of smell or taste",
+        "a1": "Diarrhea",
+        "a2": "Stomach Ache",
+        "a3": "Runny Nose",
+        "difficulty": 1
+    },
+    {
+        "q": "The coronavirus is more contagious than the flu.",
+        "correct": "True, the coronavirus is airborne mmaking it more dangerous",
+        "a1": "True, the coronavirus can't be killed with loud music unlike the flu",
+        "a2": "False, both equally contagius since they are the same thing",
+        "a3": "False, the flu is deadlier and more contagius",
+        "difficulty": 1
+    },
+    {
+        "q": "When was the first case of COVID-19?",
+        "correct": "November 17, 2019",
+        "a1": "November 16, 2019",
+        "a2": "November 15, 2019",
+        "a3": "November 20, 2019",
+        "difficulty": 3
+    },
+    {
+        "q": "Antiobiotics can treat coronavirus.",
+        "correct": "False, antibiotics cannot treat viruses",
+        "a1": "False, scientists haven't developed the right Antibiotics yet",
+        "a2": "True, antibiotics help lessen symptoms ",
+        "a3": "True, antibiotics have always been able to treat any type of virus",
+        "difficulty": 2
+    },
+    {
+        "q": "Which of the following groups is COVID-19 the most dangerous for?",
+        "correct": "Elders and people with underlying health conditions",
+        "a1": "Average Adults",
+        "a2": "Babies",
+        "a3": "Teenagers",
+        "difficulty": 1
+    },
+    {
+        "q": "How long does the novel coronavirus survive outside the body?",
+        "correct": "Several hours to days",
+        "a1": "Several minutes",
+        "a2": "Several seconds",
+        "a3": "Several months",
+        "difficulty": 2
+    },
+    {
+        "q": "Covid-19 infects people by injecting its genome into their cells. What type of genetic material is the Covid-19 genome made up of?\n",
+        "correct": "RNA",
+        "a1": "DNA",
+        "a2": "Mitchondria",
+        "a3": "Ribosome",
+        "difficulty": 3
+    },
+    {
+        "q": "How should a mask be properly worn?",
+        "correct": "Put it over your nose and mouth and secure it under your chin",
+        "a1": "Put it under your nose and mouth and secure it under your chin",
+        "a2": "Put it over your eyes",
+        "a3": "Just cover the mouth and not the nose",
+        "difficulty": 2
+    },
+    {
+        "q": "What is a fomite?",
+        "correct": "A contaminated object or surface",
+        "a1": "A contaminated person",
+        "a2": "Another name for coronavirus",
+        "a3": "An uncontaminated object or surface",
+        "difficulty": 3
+    },
+    {
+        "q": "Can letters, products and packages be contaminated by the coronavirus (COVID-19) virus?",
+        "correct": "Yes because it can carry germs",
+        "a1": "No because it does not carry any outside germs",
+        "a2": "Yes because they do not have masks on them",
+        "a3": "No because they are always clean with no germs",
+        "difficulty": 1
+    },
+    {
+        "q": "On March 1st, there were fewer than a dozen known COVID-19 related deaths in the US. Two months later, how many COVID-19 deaths were reported in the US?",
+        "correct": "As of May 1, there were about 60,000 deaths in the US.",
+        "a1": "As of May 1, there were about 600,000 deaths in the US.",
+        "a2": "As of May 1, there were about 6,000 deaths in the US.",
+        "a3": "As of May 1, there were about 600 deaths in the US.",
+        "difficulty": 3
+    }
+]
