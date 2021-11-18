@@ -1,18 +1,18 @@
 import "./App.css";
 import { Home, Quiz } from "./pages";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
     return (
         <Router>
-            <Switch>
+            <Routes>
                 <Route exact path="/">
                     <Home />
                 </Route>
                 <Route path="/quiz">
                     <Quiz />
                 </Route>
-            </Switch>
+            </Routes>
         </Router>
     );
 }
