@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 
 function Question({ object, number }) {
     useEffect(() => {
-        console.log(object.q);
+        console.log(object);
     }, [object]);
 
     if (object === null) {
@@ -14,7 +14,7 @@ function Question({ object, number }) {
         <div>
             <p>
                 {number}
-                {object.q}
+                {object && object.q}
             </p>
         </div>
     );
