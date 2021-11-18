@@ -1,17 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
-html,
-head,
-body,
-#root {
-    background-color: var(--bg);
-}
-
 body {
     margin: 0;
+    height: 100vh;
     font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     color: var(--text);
+    background-color: var(--bg);
 }
 
 code {
