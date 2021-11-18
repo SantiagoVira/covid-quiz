@@ -25,7 +25,7 @@ function Quiz() {
     const [chosen, setChosen] = useState("");
     useEffect(() => {
         setChosen(choose(used, setUsed));
-    }, []);
+    }, [used]);
 
     return (
         <div>
