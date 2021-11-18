@@ -5,7 +5,7 @@
     flex-direction: column;
 }
 .Home {
-    height: 85vh;
+    height: 80vh;
     justify-content: space-between;
     margin-bottom: auto;
 }
@@ -24,6 +24,7 @@
 
     width: 90vw;
     text-align: center;
+    margin-bottom: 0;
 }
 .info {
     font-size: 4.5vw;
@@ -39,7 +40,7 @@
 }
 
 .logo-img {
-    width: 85vw;
+    width: 65vw;
 }
 .Home a {
     text-decoration: none;

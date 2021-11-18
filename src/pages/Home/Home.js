@@ -14,7 +14,7 @@ function Home() {
                     to enjoy!
                 </p>
                 <p className="info">
-                    Answer 10 questions about Covid-19, be sure not to fall for
+                    Answer 5 questions about Covid-19, be sure not to fall for
                     any misinformation!
                 </p>
             </div>
