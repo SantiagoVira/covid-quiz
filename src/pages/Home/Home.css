@@ -5,7 +5,7 @@
     flex-direction: column;
 }
 .Home {
-    height: 95vh;
+    height: 85vh;
     justify-content: space-between;
     margin-bottom: auto;
 }
@@ -39,7 +39,7 @@
 }
 
 .logo-img {
-    width: 95vw;
+    width: 85vw;
 }
 .Home a {
     text-decoration: none;
