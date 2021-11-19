@@ -6,10 +6,7 @@ import { Question } from "../../components/question";
 function Quiz() {
     const [completed, setCompleted] = useState(0);
     // const [score, setScore] = useState(0);
-    const [chosen, setChosen] = useState([]);
-    useEffect(() => {
-        setChosen(Questions.sort(() => 0.5 - Math.random()).slice(0, 5));
-    }, []);
+    const chosen = Questions.sort(() => 0.5 - Math.random()).slice(0, 5);
 
     return (
         <div>

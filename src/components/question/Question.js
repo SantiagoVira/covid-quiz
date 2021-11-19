@@ -1,35 +1,51 @@
 import "./Question.css";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Answer from "./Answer";
+import { Button } from "../home";
 
 function shuffleArray(array) {
-    for (var i = array.length - 1; i > 0; i--) {
+    let new_array = array.slice();
+    for (var i = new_array.length - 1; i > 0; i--) {
         var j = Math.floor(Math.random() * (i + 1));
-        var temp = array[i];
-        array[i] = array[j];
-        array[j] = temp;
+        var temp = new_array[i];
+        new_array[i] = new_array[j];
+        new_array[j] = temp;
     }
-    return array;
+    return new_array;
 }
 
 function Question({ object, number }) {
+    const [anyChosen, setAnyChosen] = useState(false);
+    const [answers, setAnswers] = useState([]);
+
+    useEffect(() => {
+        setAnswers(
+            shuffleArray([object.correct, object.a1, object.a2, object.a3])
+        );
+    }, [object]);
+
     if (object === null || object === undefined) {
         return <></>;
     }
 
-    const answers = [object.correct, object.a1, object.a2, object.a3];
-    shuffleArray(answers);
-
     return (
-        <div>
+        <div className="questionWrapper">
             <p className="number">{number}</p>
             <p className="question">{object && object.q}</p>
 
             <div className="answersCol">
                 {answers.map((answer, i) => {
-                    return <Answer text={answer} key={i} />;
+                    return (
+                        <Answer
+                            text={answer}
+                            setAnyChosen={setAnyChosen}
+                            key={i}
+                        />
+                    );
                 })}
             </div>
+
+            <Button disabled={!anyChosen}>Submit</Button>
         </div>
     );
 }

@@ -1,8 +1,12 @@
 import "./Home.css";
 import React from "react";
 
-function Button({ children }) {
-    return <button className="button">{children}</button>;
+function Button({ children, disabled = false }) {
+    return (
+        <button className="button" disabled={disabled}>
+            {children}
+        </button>
+    );
 }
 
 export default Button;

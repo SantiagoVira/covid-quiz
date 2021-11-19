@@ -2,6 +2,13 @@
     --answer-transition-time: 0.2s;
 }
 
+.questionWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .number {
     color: var(--bg);
     background-color: var(--pink);
@@ -18,7 +25,7 @@
     align-items: center;
     justify-content: center;
 
-    opacity: 0.65;
+    opacity: 0.75;
     position: absolute;
     z-index: -1;
     top: -20px;
@@ -46,13 +53,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.288);
+    padding: 0px 10px;
 }
 
 .answer p {
-    font-size: 0.8rem;
-    font-weight: bold;
+    font-size: 0.9rem;
+    font-weight: bolder;
     width: 100%;
     text-align: center;
+    margin-left: 5px;
 }
 
 .outerCircle,
@@ -77,20 +89,24 @@
     flex-shrink: 0;
 }
 
-.innerCircle.active {
+.radio:checked ~ .outerCircle .innerCircle {
     width: 11px;
     height: 11px;
     background-color: #00e600;
 }
-.innerCircle.inactive {
+.radio:not(:checked) ~ .outerCircle .innerCircle {
     background-color: gray;
     width: 0px;
     height: 0px;
 }
 
-.outerCircle.active {
+.radio:checked ~ .outerCircle {
     border-color: lime;
 }
-.outerCircle.inactive {
+.radio:not(:checked) ~ .outerCircle {
     border-color: gray;
+}
+
+.radio {
+    display: none;
 }

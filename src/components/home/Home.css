@@ -23,9 +23,9 @@
 
 .button:hover:not(:disabled) {
     padding: 10px 28px;
-    background-color: #59b8f39c;
+    filter: brightness(1.15);
 }
 
 .button:disabled {
-    filter: brightness(0.9);
+    background-color: rgb(83, 83, 83);
 }
